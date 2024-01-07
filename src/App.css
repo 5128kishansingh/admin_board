@@ -1,0 +1,426 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.left-portion {
+  height: 100%;
+  width: 20vw;
+  background-color: rgb(128, 136, 247);
+
+}
+
+.right-portion {
+  width: 80vw;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 1500px;
+  width: 100vw;
+  display: flex;
+
+}
+
+.admin-name {
+  color: white;
+  display: flex;
+
+  justify-content: center;
+}
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.butt {
+  width: 100%;
+
+  height: 60px;
+  background-color: rgb(128, 136, 247);
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+
+.butt:hover {
+  background-color: #ffffff;
+  /* White background color on hover */
+  color: #3498db;
+  /* Change text color on hover if needed */
+}
+
+.button-container {
+  width: 18vw;
+  display: flex;
+
+
+  justify-content: space-between;
+}
+
+.propname {
+  /* margin-left: 25px; */
+  margin-top: 4.5px;
+  text-align: right;
+}
+
+.hi {
+  margin-left: 15px;
+}
+
+.how {
+  width: 12vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-icon {
+  margin-top: 4.5px;
+}
+
+.parent-sub {
+  width: 100%;
+  margin-top: 50px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+}
+
+.sub {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  border-radius: 11px;
+}
+
+.offr {
+  margin-top: 4.5px;
+  height: 200px;
+  /* border-radius: 2004px; */
+}
+
+.footer1 {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer2 {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-0 {
+  width: 20px;
+  height: 20px;
+  border-radius: 24px;
+}
+
+.icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-2 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-3 {
+  width: 20px;
+  height: 20px;
+}
+
+.upload-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-size: 10px;
+  margin-left: 9px;
+  margin-top: 2px;
+  font-weight: bolder;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textInput {
+  margin-top: 25px;
+  height: 30px;
+  width: 16vw;
+  margin-left: -200px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(210, 210, 245)
+}
+
+.side-icon {
+
+  margin-top: 25px;
+  width: 30vw;
+  height: 30px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4 {
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(210, 210, 245)
+}
+
+.btn-1 {
+  background-color: rgb(235, 76, 28);
+}
+
+.btn-4 {
+  margin-right: 25px;
+}
+
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover {
+  background-color: white;
+  color: black;
+  /* You can adjust the text color on hover if needed */
+}
+
+.btn-1:hover {
+  background-color: rgb(243, 138, 100);
+  color: black;
+}
+
+.engage-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-icon {
+  height: 70px;
+  width: 70px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.engagement-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.engage-stats::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 75px;
+  background-color: rgb(128, 136, 247);
+  margin-right: 10px;
+  margin-top: 12px;
+}
+
+.reven-img {
+  height: 300px;
+  width: 500px;
+
+}
+
+.graph {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.h1 {
+  color: rgb(105, 114, 242);
+}
+
+.graph-title {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p1 {
+  font-size: 13px;
+  margin-top: 24px;
+  font-weight: bold;
+  color: rgb(21, 172, 21);
+}
+.dot3{
+  display: flex;
+  justify-content: space-between;
+}
+.dot0{
+  /* background-color: blue; */
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.dot-container{
+  margin-top: 35px;
+  margin-left: 40px;
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+.dot1{
+  height: 25px;
+  width: 25px;
+  margin-top: 15px;
+}
+.dot-title{
+  color: rgb(105, 114, 242);
+  margin-left: 25px;
+}
+.line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%; /* or specify a specific width */
+  height: 1px; /* or adjust the height as needed */
+  background-color: rgb(182, 186, 241);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.p-2{
+  color: green;
+}
+.p-3{
+  color: red;
+}
+.p-4{
+  color: gray;
+}
+ .div-6{
+  /* background-color: rgb(191, 255, 0); */
+  
+  width: 30vw;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.div-5{
+  
+  background-color: rgb(195, 196, 215);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.p6{
+  margin-right: 15px;
+}
+
+.textWithDots1::after{
+  content: ' •'; 
+  color: blue;
+  margin-left: 4px;
+  
+  
+}
+.textWithDots2::after{
+  content: ' •'; 
+  color: orangered;
+  margin-left: 4px;
+  
+  
+}
+.div-7{
+  
+  background-color: rgb(198, 195, 195)smoke;
+  display: flex;
+  justify-content: space-between;
+}
+.div-8{
+  width: 63%;
+  
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+} 
+.div-9{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.div-10{
+  margin-left: 25px;
+}
+.div-11{
+  margin-right: 25px;
+}
+.line1{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Adjust the height of the line as needed */
+  background-color: rgb(243, 243, 9);
+  bottom: 0;
+  left: 0;
+}
+
